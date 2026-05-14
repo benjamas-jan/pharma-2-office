@@ -2,7 +2,7 @@ const packages = [
   {
     size: "— 01",
     name: "สั่งง่ายผ่าน LINE",
-    forText: "@pharma — สั่งยาผ่านแชต",
+    forText: "@pharma — ปรึกษาเภสัชกรผ่านแชต",
     features: [
       "สั่งยาผ่าน LINE OA @pharma",
       "เภสัชกรช่วยเลือกยาที่เหมาะกับตู้บริษัท",
@@ -45,9 +45,9 @@ export function ServiceInclusions() {
         <div className="section-header">
           <div className="section-eyebrow">สิ่งที่ได้กับ Wellness Plus</div>
           <h2>
-            สั่งยา <span className="accent">เหมือน e-commerce</span> แต่มี
+            สั่งสะดวกผ่าน <span className="accent">LINE OA</span> โดยมี
             <br />
-            เภสัชกรประจำดูแล
+            เภสัชกรประจำดูแลทุก order
           </h2>
           <p className="section-sub">
             ไม่มีค่าสมาชิก ไม่มีสัญญาผูกขาด — สั่งเมื่อต้องการ จ่ายตาม order แต่ละครั้ง
