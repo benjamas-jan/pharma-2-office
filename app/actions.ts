@@ -2,7 +2,10 @@
 
 import { Resend } from "resend";
 
-const LEAD_RECIPIENTS = ["benjamasdee@gmail.com", "chaivoot@gmail.com"];
+// Resend's sandbox sender (onboarding@resend.dev) only delivers to the email
+// that owns the Resend account — currently benjamasdee@gmail.com. Add
+// chaivoot@gmail.com back once a custom domain is verified in Resend.
+const LEAD_RECIPIENTS = ["benjamasdee@gmail.com"];
 const DEFAULT_FROM = "Wellness Plus <onboarding@resend.dev>";
 
 export type LeadFormState =
